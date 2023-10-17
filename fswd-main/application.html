@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InternSHOP</title>
+    <link rel="icon" href="./images/home/logo.png">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/template.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <style>
+    .info {
+        font-family: sans-serif;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: lightcyan;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="date"],
+    input[type="file"],
+    select {
+        width: calc(100% - 12px);
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    input[type="submit"]:last-child {
+        margin-right: 0;
+    }
+</style>
+</head>
+<body>
+    <div class="header box">
+        <div class="logo">
+            <img src="./images/home/logo.png" alt="logo">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="internships.html">Internships</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="profile.html"><img src="./images/home/user.png" style="height:15px; width: auto;" alt="profile"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="contet box">
+        <div class="info">
+            <h1>APPLICATION FORM</h1>
+            <form acƟon="">
+            <label for="">NAME OF THE COMPANY</label>
+            <input type="text">
+            <label for="">ROLLNO:</label>
+            <input type="text">
+            <label for="">NAME OF THE STUDENT</label>
+            <input type="text">
+            <label for="">TITLE OF THE PROJECT</label>
+            <input type="text">
+            <div class="form-group">
+            <label for="year">YEAR</label>
+            <select class="form-control" id="year"></select>
+            </div>
+            <br>
+            <label for="">SEM</label>
+            <input type="text">
+            <label for="">START DATE:</label>
+            <input type="date" name="" id="">
+            <label for="">END DATE:</label>
+            <input type="date">
+            <label for="">STIPEND</label>
+            <input type="text">
+            <label for="">choose a file to upload</label>
+            <input type="file" name="file" id="file">
+            <input type="submit" value="GET APPROVAL" onclick="locaƟon.href='/approval.html';" >
+            <input type="submit" value="SUBMIT">
+            </form>
+            <script src="fillscript.js"></script>
+        </div>
+    </div>
+    <div class="footer box">
+        <div class="navigate">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="internships.html">Internships</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="contact_us">
+            <p>contact us<p>
+            <span><img src="./images/home/email.png" alt="">vasavi@gmail.com</span>
+            <span><img src="./images/home/telephone.png" alt="">+91 7777788888</span>
+        </div>
+        <div class="social_links">
+            <ul>
+                <li><img src="./images/home/instagram_1384031.png" alt=""></li>
+                <li><img src="./images/home/facebook_747374.png" alt=""></li>
+                <li><img src="./images/home/linkedin-logo_61109.png" alt=""></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

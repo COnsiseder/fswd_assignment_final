@@ -1,0 +1,22 @@
+.company{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: whitesmoke;
+}
+.company h1{
+    text-align: center;
+    font-family: monospace;
+    text-decoration: double;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+.company_box{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.company_box img{
+    height:50px;
+    width: auto;
+}

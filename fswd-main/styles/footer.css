@@ -1,0 +1,22 @@
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+}
+
+.footer ul li{
+    list-style: none;
+}
+.footer img{
+    height:20px;
+}
+.contact_us span{
+    display: flex;
+    align-items: center;
+}

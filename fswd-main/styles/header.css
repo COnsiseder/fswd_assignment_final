@@ -1,0 +1,32 @@
+.header{
+    position: sticky;
+    background-color: rgba(255, 255, 255, 0.738);
+    border-bottom: 2px solid azure;
+    top: 0px;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+.logo img{
+    height:30px;
+    width: auto;
+}
+.header ul li{
+    float: left;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.header ul li:hover{
+    background-color: lightgray;
+}
